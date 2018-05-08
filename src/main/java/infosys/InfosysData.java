@@ -1,13 +1,8 @@
 package infosys;
 import java.sql.*;
-import java.util.*;
-
-import com.fasterxml.jackson.databind.util.JSONPObject;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 public class InfosysData{
 
