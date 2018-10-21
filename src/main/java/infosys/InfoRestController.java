@@ -4,6 +4,17 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/contacts")
 class InfoRestController{
+	
+
+    @RequestMapping("/tere")
+    String tervitus2(String eesnimi){
+        return "Tere, "+eesnimi;
+    }
+
+    @RequestMapping("/")
+    String rootFolder(){
+        return "page!";
+    }
 
     @RequestMapping(method = RequestMethod.GET)
 	String ReadContactsRest()throws Exception {
